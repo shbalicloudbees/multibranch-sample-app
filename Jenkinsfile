@@ -1,5 +1,5 @@
 pipeline {
-  agent {label 'linux'}
+  agent {label 'ubuntuos'}
   options {
     buildDiscarder(logRotator(numToKeepStr: '5'))
   }
